@@ -1,4 +1,4 @@
-# 🍎 AI Lens - Visual Intelligence API
+#  AI Lens - Visual Intelligence API
 
 A comprehensive AI-powered visual intelligence system inspired by Apple's Visual Intelligence, built with FastAPI. This project provides advanced image analysis capabilities including captioning, object detection, text extraction, and intelligent image search.
 
@@ -6,9 +6,9 @@ A comprehensive AI-powered visual intelligence system inspired by Apple's Visual
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 🌟 Features
+##  Features
 
-### 🔍 Visual Intelligence
+###  Visual Intelligence
 - **Smart Image Analysis** - Comprehensive image understanding and categorization
 - **Object Detection & Identification** - YOLO-powered object recognition
 - **Text Extraction & Translation** - OCR with multi-language support
@@ -17,14 +17,14 @@ A comprehensive AI-powered visual intelligence system inspired by Apple's Visual
 - **Food Analysis** - Identify dishes with nutritional information
 - **Shopping Assistant** - Product identification and search
 
-### 🧠 AI-Powered Services
+###  AI-Powered Services
 - **Image Captioning** - BLIP model for detailed image descriptions
 - **Internet Image Search** - Pixabay API integration for similar image discovery
 - **LLM Enhancement** - Google Gemini for contextual summaries
 - **Batch Processing** - Handle multiple images simultaneously
 - **Real-time Processing** - Fast analysis with caching support
 
-### 🛠️ Technical Features
+###  Technical Features
 - **RESTful API** - Clean, documented FastAPI endpoints
 - **Docker Support** - Easy deployment with containerization
 - **Rate Limiting** - Built-in request throttling
@@ -32,7 +32,7 @@ A comprehensive AI-powered visual intelligence system inspired by Apple's Visual
 - **Caching System** - In-memory caching for performance
 - **Health Monitoring** - System health checks
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.11+
@@ -88,7 +88,7 @@ The API will be available at:
 - **Interactive Docs**: http://localhost:8000/docs
 - **Visual Interface**: http://localhost:8000/visual_intelligence_interface.html
 
-## 📖 API Documentation
+##  API Documentation
 
 ### Core Endpoints
 
@@ -139,7 +139,7 @@ curl -X POST "http://localhost:8000/visual/analyze" \
   -F "analysis_type=comprehensive"
 ```
 
-## 🐳 Docker Deployment
+##  Docker Deployment
 
 ### Using Docker Compose (Recommended)
 ```bash
@@ -154,7 +154,7 @@ docker build -t ai-lens .
 docker run -p 8000:8000 ai-lens
 ```
 
-## 🧪 Demo Mode
+##  Demo Mode
 
 The application works even without API keys! It provides:
 - ✅ Image captioning with BLIP
@@ -165,7 +165,7 @@ The application works even without API keys! It provides:
 
 Simply run the application and start uploading images!
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 AI-lens/
@@ -183,7 +183,7 @@ AI-lens/
 └── README.md                # Project overview
 ```
 
-## 🔧 Configuration Options
+##  Configuration Options
 
 ### Environment Variables
 - `HUGGINGFACE_TOKEN` - For BLIP model access
@@ -198,7 +198,7 @@ AI-lens/
 - **Batch Processing**: 10 images per request
 - **Rate Limiting**: 100 requests per minute per IP
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -206,11 +206,11 @@ AI-lens/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Salesforce BLIP** - Image captioning model
 - **Ultralytics YOLO** - Object detection
@@ -218,12 +218,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Pixabay** - Free image search API
 - **FastAPI** - Modern Python web framework
 
-## 📞 Support
+##  Support
 
 If you encounter any issues or have questions:
-- 📧 Create an issue on GitHub
-- 💬 Check the [documentation](http://localhost:8000/docs) for detailed API info
-- 🔍 Review the demo interface for usage examples
+-  Create an issue on GitHub
+-  Check the [documentation](http://localhost:8000/docs) for detailed API info
+-  Review the demo interface for usage examples
 
 ---
 
