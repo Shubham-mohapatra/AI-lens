@@ -1,0 +1,23 @@
+# Python cache files (present in your project)
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment (present in your project)
+venv/
+.env
+
+# IDE files (present in your project)
+.idea/
+.vscode/
+
+# Logs (you have ai_lens.log)
+*.log
+
+# AI/ML model files (you have yolov8n.pt)
+*.pt
+*.pth
+
+# Temporary files
+*.tmp
+*.temp
