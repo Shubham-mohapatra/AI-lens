@@ -1,6 +1,6 @@
 #  AI Lens - Visual Intelligence API
 
-A comprehensive AI-powered visual intelligence system inspired by Apple's Visual Intelligence, built with FastAPI. This project provides advanced image analysis capabilities including captioning, object detection, text extraction, and intelligent image search.
+A comprehensive AI-powered visual intelligence system built with FastAPI. This project provides advanced image analysis capabilities including captioning, object detection, text extraction, and intelligent image search.
 
 ![Python](https://img.shields.io/badge/python-v3.11+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
